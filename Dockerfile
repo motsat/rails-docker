@@ -27,4 +27,5 @@ RUN \
 COPY . $APP_ROOT
 
 EXPOSE 3000
-CMD ["rails", "server", "-d", "0.0.0.0"]
+#CMD ["rails", "server", "-d", "0.0.0.0"]
+CMD ["rails", "server"]
